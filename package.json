@@ -1,7 +1,7 @@
 {
   "name": "log-vuer",
   "author": "EG Adams",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/log-vuer.ssr.js",
   "browser": "dist/log-vuer.esm.js",

@@ -13,7 +13,8 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from 'vue';
+import type { PropType } from "vue";
+import { defineComponent } from 'vue';
 import LogObject from './LogObject.vue';
 import ILogObject from './typescript_source/abstract/ILogObject';
 import jQuery from 'jquery';
@@ -32,7 +33,7 @@ export default defineComponent({
                 setTimeout(() => {
                     jQuery( "#" + this.object_name + "_log_viewer" ).animate(
                         { scrollTop: jQuery( "#" + this.object_name + "_log_viewer" ).prop( "scrollHeight" )},
-                        1000 );
+                        250 );
                 }, 100 );    
             }}}    
 });
@@ -43,7 +44,7 @@ export default defineComponent({
   background: black;
   color: white;
   border: solid 0.1px;
-  height: 300px;
+  height: 700px;
   overflow: auto;
   z-index: 10;
   text-align: left;

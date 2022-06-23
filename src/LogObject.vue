@@ -1,15 +1,15 @@
-import ILogObject from '../typescript_source/abstract/ILogObject';
+
 <template>
     <li>
         <div class="log-object-container">
             <div>
-                {{ log_object.method }}
+                {{ log_object?.method }}
             </div>
             <div>
-                {{ log_object.id }}
+                {{ new Date( log_object?.timestamp ).toLocaleString() }}
             </div>
             <div>
-                {{ log_object.message }}
+                {{ log_object?.message }}
             </div>
         </div>
     </li>

@@ -11,16 +11,23 @@ export default defineComponent({
     return {
       test_object_name: "log-vuer-tester",
       logs: [
+          
         {
-          id: "1",
-          timestamp: 100,
-          message: "test message 1",
+          id: "MessageManager_9472107374869_1653766722484",
+          timestamp: 1653766722484,
+          message: "Bootstrap is the world's most famous free CSS framework",
           method: "test",
         },
         {
-          id: "2",
-          timestamp: 100,
-          message: "test message 2",
+          id: "MessageManager_8285421285153_1653766722485",
+          timestamp: 1653766722485,
+          message: "setting newly built Admin guest to active...",
+          method: "test",
+        },
+        {
+          id: "MessageManager_7914528758183_1653766722486",
+          timestamp: 1653766722486,
+          message: "done constructing Admin guest.",
           method: "test",
         },
       ],

@@ -31,9 +31,10 @@ export default defineComponent({
 
 <style>
 .log-object-container {
+    column-gap: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     padding: 0.1px;
     border: solid 0.0px;

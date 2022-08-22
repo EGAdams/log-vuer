@@ -1,6 +1,6 @@
 <script lang="ts">
 import { defineComponent } from "vue";
-import LogVuer from "../src/LogViewer.vue";
+import LogVuer from "../src/log-vuer.vue";
 
 export default defineComponent({
   name: "ServeDev",
